@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test">
+    <sys_atf_test action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Testing the GET /vehicles/vehicle/{vin} resource.</description>
+        <enable_parameterized_testing>true</enable_parameterized_testing>
+        <fail_on_server_error>true</fail_on_server_error>
+        <name>GET Vehicle</name>
+        <parameters/>
+        <remember/>
+        <sn_atf_tg_generated>false</sn_atf_tg_generated>
+        <sys_class_name>sys_atf_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:00:54</sys_created_on>
+        <sys_id>743030a7c395079034d93d0ed4013146</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>GET Vehicle</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_atf_test_743030a7c395079034d93d0ed4013146</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:00:54</sys_updated_on>
+        <test_origin>manual</test_origin>
+    </sys_atf_test>
+    <sys_variable_value action="delete_multiple" query="document_key=743030a7c395079034d93d0ed4013146"/>
+</record_update>

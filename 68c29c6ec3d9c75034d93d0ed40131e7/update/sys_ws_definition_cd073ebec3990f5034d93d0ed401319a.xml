@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_definition">
+    <sys_ws_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <base_uri>/api/x_1397649_vehicl_0/vehicles</base_uri>
+        <consumes>application/json</consumes>
+        <consumes_customized>true</consumes_customized>
+        <default_version>v1</default_version>
+        <doc_link>https://dev278190.service-now.com/x_1397649_vehicl_0_vehicles_api_documentation.do</doc_link>
+        <enforce_acl>192cee8fc399cf5034d93d0ed4013147</enforce_acl>
+        <is_versioned>true</is_versioned>
+        <name>Vehicles</name>
+        <namespace>x_1397649_vehicl_0</namespace>
+        <produces>application/json</produces>
+        <produces_customized>true</produces_customized>
+        <service_id>vehicles</service_id>
+        <short_description>Vehicles REST API Documentation</short_description>
+        <sys_class_name>sys_ws_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-09 18:54:06</sys_created_on>
+        <sys_id>cd073ebec3990f5034d93d0ed401319a</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Vehicles</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_ws_definition_cd073ebec3990f5034d93d0ed401319a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 12:47:55</sys_updated_on>
+    </sys_ws_definition>
+</record_update>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Assert a response payload contains '"make":"Ford"'</description>
+        <display_name>Assert Response Payload</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Assert Response Payload">d53e40d59f132200ef4afa7dc67fcfc7</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:11:04</sys_created_on>
+        <sys_id>df92b863c3d5079034d93d0ed40131ca</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Assert Response Payload</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_atf_step_df92b863c3d5079034d93d0ed40131ca</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:12:06</sys_updated_on>
+        <table/>
+        <test display_value="GET Vehicle">743030a7c395079034d93d0ed4013146</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=df92b863c3d5079034d93d0ed40131ca"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>df92b863c3d5079034d93d0ed40131ca</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:11:04</sys_created_on>
+        <sys_id>51b23c63c3d5079034d93d0ed40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:11:04</sys_updated_on>
+        <value>contains</value>
+        <variable display_value="Operation">ccae44d59f132200ef4afa7dc67fcf1e</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>df92b863c3d5079034d93d0ed40131ca</document_key>
+        <order>110</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:11:04</sys_created_on>
+        <sys_id>95b23c63c3d5079034d93d0ed40131b2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:11:04</sys_updated_on>
+        <value>"make":"Ford"</value>
+        <variable display_value="Response body">f0eec4d59f132200ef4afa7dc67fcf6d</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="DELETE" query="table=var__m_atf_input_variable_d53e40d59f132200ef4afa7dc67fcfc7^id=df92b863c3d5079034d93d0ed40131ca"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</application>
+        <file_path/>
+        <instance_id>8ee2e0d53b4b465cc55a348aa4e45af2</instance_id>
+        <instance_name>dev278190</instance_name>
+        <name>sys_atf_step_df92b863c3d5079034d93d0ed40131ca</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Assert a response payload contains '"make":"Ford"'</description><display_name>Assert Response Payload</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Assert Response Payload">d53e40d59f132200ef4afa7dc67fcfc7</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-11 17:11:04</sys_created_on><sys_id>df92b863c3d5079034d93d0ed40131ca</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Assert Response Payload</sys_name><sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package><sys_policy/><sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope><sys_update_name>sys_atf_step_df92b863c3d5079034d93d0ed40131ca</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-11 17:12:06</sys_updated_on><table/><test display_value="GET Vehicle">743030a7c395079034d93d0ed4013146</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=df92b863c3d5079034d93d0ed40131ca"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>df92b863c3d5079034d93d0ed40131ca</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-11 17:11:04</sys_created_on><sys_id>51b23c63c3d5079034d93d0ed40131b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-11 17:11:04</sys_updated_on><value>contains</value><variable display_value="Operation">ccae44d59f132200ef4afa7dc67fcf1e</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>df92b863c3d5079034d93d0ed40131ca</document_key><order>110</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-11 17:11:04</sys_created_on><sys_id>95b23c63c3d5079034d93d0ed40131b2</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-11 17:11:04</sys_updated_on><value>"make":"Ford"</value><variable display_value="Response body">f0eec4d59f132200ef4afa7dc67fcf6d</variable></sys_variable_value><sys_element_mapping action="delete_multiple" query="table=var__m_atf_input_variable_d53e40d59f132200ef4afa7dc67fcfc7^id=df92b863c3d5079034d93d0ed40131ca"/></record_update>]]></payload>
+        <payload_hash>1194516641</payload_hash>
+        <record_name>Assert Response Payload</record_name>
+        <reverted_from/>
+        <source>ecc2dc6ec3d9c75034d93d0ed4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:12:07</sys_created_on>
+        <sys_id>70f278e3c3d5079034d93d0ed40131e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eb7ab73660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:12:07</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>bcf278e37fd50790f6452fc14f1d42e7</update_guid>
+        <update_guid_history>bcf278e37fd50790f6452fc14f1d42e7:1194516641,69b23c635bd50790336553f5c741f0b5:-217399552</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:12:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>4712436c85f24486ab7b824061dc99c4</sys_id>
+        <sys_metadata>df92b863c3d5079034d93d0ed40131ca</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response Payload</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_scope_delete display_value="">5c42f3d20af14034ae9cc34a2715e510</sys_scope_delete>
+        <sys_update_name>sys_atf_step_df92b863c3d5079034d93d0ed40131ca</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_df92b863c3d5079034d93d0ed40131ca">70f278e3c3d5079034d93d0ed40131e9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:12:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

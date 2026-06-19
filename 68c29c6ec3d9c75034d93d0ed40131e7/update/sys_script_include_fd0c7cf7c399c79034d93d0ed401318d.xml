@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1397649_vehicl_0.PayloadSizeCalculator</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>
+|
+Methods:
+* initialize()
+* calculateSizes()
+* _getByteSize()</description>
+        <mobile_callable>false</mobile_callable>
+        <name>PayloadSizeCalculator</name>
+        <sandbox_callable>false</sandbox_callable>
+        <script><![CDATA[var PayloadSizeCalculator = Class.create();
+PayloadSizeCalculator.prototype = {
+    initialize: function() {},
+
+    calculateSizes: function(requestPayload, responsePayload) {
+        return {
+            requestBytes: this._getByteSize(requestPayload),
+            responseBytes: this._getByteSize(responsePayload),
+            totalBytes: this._getByteSize(requestPayload) + this._getByteSize(responsePayload)
+        };
+    },
+
+    _getByteSize: function(str) {
+        if (!str) return 0;
+
+        var byteSize = 0;
+        for (var i = 0; i < str.length; i++) {
+            var code = str.charCodeAt(i);
+            if (code < 0x80) {
+                byteSize += 1;
+            } else if (code < 0x800) {
+                byteSize += 2;
+            } else if (code < 0xD800 || code >= 0xE000) {
+                byteSize += 3;
+            } else {
+                i++;
+                byteSize += 4;
+            }
+        }
+        return byteSize;
+    },
+
+    // Accurate UTF-8 byte measurement - calculates bytes based on each character's code point
+    // Use this if the payload may contain non-ASCII characters (e.g. accented names like å, ä, ö)
+    _getByteSize_UTF8(str) {
+        if (!str) return 0;
+        var byteSize = 0;
+        for (var i = 0; i < str.length; i++) {
+            var code = str.charCodeAt(i);
+            if (code < 0x80) byteSize += 1;
+            else if (code < 0x800) byteSize += 2;
+            else if (code < 0xd800 || code >= 0xe000) byteSize += 3;
+            else {
+                i++;
+                byteSize += 4;
+            }
+        }
+        return byteSize;
+    },
+
+    // Approximate UTF-8 byte measurement - only accurate for purely ASCII payloads
+    // For ASCII characters UTF-8 byte count equals character count, so .length is sufficient
+    // Non-ASCII characters (e.g. å, ä, ö) will be underestimated as they occupy 2 bytes in UTF-8
+    _getByteSize_ASCII_only(str) {
+        if (!str) return 0;
+        return str.length;
+    },
+
+    // UTF-16 byte measurement - only relevant if both sides communicate in UTF-16
+    // Do NOT use for REST APIs - HTTP standard defaults to UTF-8
+    _getByteSize_UTF16(str) {
+        if (!str) return 0;
+        return str.length * 2;
+    },
+
+    type: 'PayloadSizeCalculator'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-12 12:31:18</sys_created_on>
+        <sys_id>fd0c7cf7c399c79034d93d0ed401318d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>PayloadSizeCalculator</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_script_include_fd0c7cf7c399c79034d93d0ed401318d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-12 20:30:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

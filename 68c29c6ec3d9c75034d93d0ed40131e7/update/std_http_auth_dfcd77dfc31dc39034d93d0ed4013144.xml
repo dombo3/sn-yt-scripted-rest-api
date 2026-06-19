@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="std_http_auth">
+    <std_http_auth action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <auth_processor>false</auth_processor>
+        <description>Auth profile for the Vehicles API</description>
+        <name>Vehicle Authenticaion Profile</name>
+        <oauth_entity display_value="Vehicles Scripted REST API">0182371bc399c39034d93d0ed40131c9</oauth_entity>
+        <sys_class_name>std_http_auth</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 13:22:03</sys_created_on>
+        <sys_id>dfcd77dfc31dc39034d93d0ed4013144</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vehicle Authenticaion Profile</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>std_http_auth_dfcd77dfc31dc39034d93d0ed4013144</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 13:22:03</sys_updated_on>
+        <type>access_token</type>
+    </std_http_auth>
+</record_update>

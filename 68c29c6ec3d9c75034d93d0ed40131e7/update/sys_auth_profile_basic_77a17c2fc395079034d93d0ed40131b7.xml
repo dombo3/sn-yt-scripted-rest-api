@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_basic">
+    <sys_auth_profile_basic action="INSERT_OR_UPDATE">
+        <name>vehicle.integration</name>
+        <password>﷞﷟﷒20d24149c3f2121034d93d0ed401317b﷬﷔1﷬﷭kjI75wb_gAQ2wGngHHnjgg==1MP1-B0WoN4asFXWvKb-aaXKCVxSJbdVUO5dmDz2TAE=﷮﷯</password>
+        <sys_class_name>sys_auth_profile_basic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:07:34</sys_created_on>
+        <sys_id>77a17c2fc395079034d93d0ed40131b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>vehicle.integration</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_auth_profile_basic_77a17c2fc395079034d93d0ed40131b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:07:34</sys_updated_on>
+        <username>vehicle.integration.user</username>
+    </sys_auth_profile_basic>
+</record_update>

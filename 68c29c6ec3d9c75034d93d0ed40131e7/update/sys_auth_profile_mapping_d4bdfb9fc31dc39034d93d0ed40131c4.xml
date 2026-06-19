@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_auth_profile_mapping">
+    <sys_auth_profile_mapping action="INSERT_OR_UPDATE">
+        <api_access_policy display_value="Vehilces OAuth">ef6df35fc31dc39034d93d0ed40131ea</api_access_policy>
+        <inbound_auth_profile display_value="Vehicle Authenticaion Profile">dfcd77dfc31dc39034d93d0ed4013144</inbound_auth_profile>
+        <sys_class_name>sys_auth_profile_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 13:22:12</sys_created_on>
+        <sys_id>d4bdfb9fc31dc39034d93d0ed40131c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_auth_profile_mapping_d4bdfb9fc31dc39034d93d0ed40131c4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 13:22:12</sys_updated_on>
+    </sys_auth_profile_mapping>
+</record_update>

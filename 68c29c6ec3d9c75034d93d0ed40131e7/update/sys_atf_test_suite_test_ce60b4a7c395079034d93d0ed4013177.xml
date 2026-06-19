@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order/>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:01:01</sys_created_on>
+        <sys_id>ce60b4a7c395079034d93d0ed4013177</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>743030a7c395079034d93d0ed4013146</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_ce60b4a7c395079034d93d0ed4013177</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:01:01</sys_updated_on>
+        <test display_value="GET Vehicle">743030a7c395079034d93d0ed4013146</test>
+        <test_suite display_value="What? DevTools? - My New Test Suite ">0e2ff82dc312321034d93d0ed401317e</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <callable_outputs/>
+        <copied_from/>
+        <description>Assert a JSON response payload is valid</description>
+        <display_name>Assert Response JSON Payload Is Valid</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="Assert Response JSON Payload Is Valid">f100f7079f132200ef4afa7dc67fcf42</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:10:30</sys_created_on>
+        <sys_id>6b827463c3d5079034d93d0ed401314f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response JSON Payload Is Valid</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_atf_step_6b827463c3d5079034d93d0ed401314f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:10:30</sys_updated_on>
+        <table/>
+        <test display_value="GET Vehicle">743030a7c395079034d93d0ed4013146</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=6b827463c3d5079034d93d0ed401314f"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</application>
+        <file_path/>
+        <instance_id>8ee2e0d53b4b465cc55a348aa4e45af2</instance_id>
+        <instance_name>dev278190</instance_name>
+        <name>sys_atf_step_6b827463c3d5079034d93d0ed401314f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><callable_outputs/><copied_from/><description>Assert a JSON response payload is valid</description><display_name>Assert Response JSON Payload Is Valid</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="Assert Response JSON Payload Is Valid">f100f7079f132200ef4afa7dc67fcf42</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-11 17:10:30</sys_created_on><sys_id>6b827463c3d5079034d93d0ed401314f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Assert Response JSON Payload Is Valid</sys_name><sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package><sys_policy/><sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope><sys_update_name>sys_atf_step_6b827463c3d5079034d93d0ed401314f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-11 17:10:30</sys_updated_on><table/><test display_value="GET Vehicle">743030a7c395079034d93d0ed4013146</test><timeout/><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=6b827463c3d5079034d93d0ed401314f"/></record_update>]]></payload>
+        <payload_hash>1003402690</payload_hash>
+        <record_name>Assert Response JSON Payload Is Valid</record_name>
+        <reverted_from/>
+        <source>ecc2dc6ec3d9c75034d93d0ed4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:10:30</sys_created_on>
+        <sys_id>01927863c3d5079034d93d0ed401316b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eb7a9f95e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:10:30</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>cd92f42f42950790a956b62bc196425a</update_guid>
+        <update_guid_history>cd92f42f42950790a956b62bc196425a:1003402690</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 17:12:06</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>5815af39aa724787b27e50a6a68883a1</sys_id>
+        <sys_metadata>6b827463c3d5079034d93d0ed401314f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Assert Response JSON Payload Is Valid</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_scope_delete display_value="">5c42f3d20af14034ae9cc34a2715e510</sys_scope_delete>
+        <sys_update_name>sys_atf_step_6b827463c3d5079034d93d0ed401314f</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_6b827463c3d5079034d93d0ed401314f">01927863c3d5079034d93d0ed401316b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 17:12:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

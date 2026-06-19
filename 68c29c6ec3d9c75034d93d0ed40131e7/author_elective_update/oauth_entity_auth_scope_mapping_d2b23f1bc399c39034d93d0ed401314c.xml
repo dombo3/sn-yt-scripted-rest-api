@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping">
+    <oauth_entity_auth_scope_mapping action="DELETE">
+        <auth_scope display_value="x_1397649_vehicl_0">70b4335fc399c39034d93d0ed401311e</auth_scope>
+        <oauth_entity display_value="Vehicles Scripted REST API">0182371bc399c39034d93d0ed40131c9</oauth_entity>
+        <sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 12:40:33</sys_created_on>
+        <sys_id>d2b23f1bc399c39034d93d0ed401314c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>oauth_entity_auth_scope_mapping_d2b23f1bc399c39034d93d0ed401314c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 12:40:33</sys_updated_on>
+    </oauth_entity_auth_scope_mapping>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</application>
+        <file_path/>
+        <instance_id>8ee2e0d53b4b465cc55a348aa4e45af2</instance_id>
+        <instance_name>dev278190</instance_name>
+        <name>oauth_entity_auth_scope_mapping_d2b23f1bc399c39034d93d0ed401314c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity_auth_scope_mapping"><oauth_entity_auth_scope_mapping action="INSERT_OR_UPDATE"><auth_scope display_value="x_1397649_vehicl_0">70b4335fc399c39034d93d0ed401311e</auth_scope><oauth_entity display_value="Vehicles Scripted REST API">0182371bc399c39034d93d0ed40131c9</oauth_entity><sys_class_name>oauth_entity_auth_scope_mapping</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-11 12:40:33</sys_created_on><sys_id>d2b23f1bc399c39034d93d0ed401314c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package><sys_policy/><sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope><sys_update_name>oauth_entity_auth_scope_mapping_d2b23f1bc399c39034d93d0ed401314c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-11 12:40:33</sys_updated_on></oauth_entity_auth_scope_mapping></record_update>]]></payload>
+        <payload_hash>-1894288915</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ecc2dc6ec3d9c75034d93d0ed4013167</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 12:40:33</sys_created_on>
+        <sys_id>7ac4f35fc399c39034d93d0ed40131c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eb6b2d3a90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 12:40:33</sys_updated_on>
+        <type>Auth Scopes</type>
+        <update_guid>f6c4f35fac99c3907739a3d244297fc0</update_guid>
+        <update_guid_history>f6c4f35fac99c3907739a3d244297fc0:-1894288915</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9b96f353c3d9c39034d93d0ed40131d9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-11 12:48:31</sys_created_on>
+        <sys_db_object display_value="" name="oauth_entity_auth_scope_mapping">oauth_entity_auth_scope_mapping</sys_db_object>
+        <sys_id>a3b4c4dda6b2455081765a14ca2f1900</sys_id>
+        <sys_metadata>d2b23f1bc399c39034d93d0ed401314c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_scope_delete display_value="">5c42f3d20af14034ae9cc34a2715e510</sys_scope_delete>
+        <sys_update_name>oauth_entity_auth_scope_mapping_d2b23f1bc399c39034d93d0ed401314c</sys_update_name>
+        <sys_update_version display_value="oauth_entity_auth_scope_mapping_d2b23f1bc399c39034d93d0ed401314c">7ac4f35fc399c39034d93d0ed40131c1</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-11 12:48:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

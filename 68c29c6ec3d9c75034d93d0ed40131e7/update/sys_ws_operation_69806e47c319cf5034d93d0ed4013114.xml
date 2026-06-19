@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>f28caacfc399cf5034d93d0ed4013148</enforce_acl>
+        <http_method>GET</http_method>
+        <name>Get Vehicles (v2)</name>
+        <operation_script><![CDATA[(function process( /*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    var answer = [];
+
+    var make = request.queryParams.make;
+    var model = request.queryParams.model;
+    var year = request.queryParams.year;
+    var country = request.queryParams.country;
+    var city = request.queryParams.city;
+
+    if (!make && !model && !year && !country && !city) {
+        response.setError(new sn_ws_err.NotFoundError('No query parameters defined'));
+        response.setStatus(404);
+        return;
+    }
+
+    var vehicleTable = "x_1397649_vehicl_0_vehicle";
+    var vehicleGr = new GlideRecord(vehicleTable);
+    if (make) {
+        vehicleGr.addQuery('make', make);
+    }
+    // The model query parameter accepts encoded queries. For example:
+    // model=XC90
+    // modelLIKEXC
+    // modelINXC90,XC60
+    if (model) { vehicleGr.addQuery(model); }
+    if (year) {
+        vehicleGr.addQuery('year', year);
+    }
+    if (country) {
+        vehicleGr.addQuery('country', country);
+    }
+    if (city) {
+        vehicleGr.addQuery('city', city);
+    }
+    vehicleGr.query();
+
+    if (!vehicleGr.hasNext()) {
+        response.setError(new sn_ws_err.NotFoundError('No records found'));
+        response.setStatus(404);
+        return;
+    }
+
+    while (vehicleGr.next()) {
+        var vehicleObj = {
+            "make": vehicleGr.getValue('make'),
+            "model": vehicleGr.getValue('model'),
+            "vin": vehicleGr.getValue('vin'),
+            // "year": vehicleGr.getValue('year'),
+            // Or pass year as integer
+            "year": parseInt(vehicleGr.getValue('year'), 10),
+            "city": vehicleGr.getValue('city'),
+            "country": vehicleGr.getValue('country'),
+            "start_date": vehicleGr.getValue('start_date'),
+            "end_date": vehicleGr.getValue('end_date')
+        };
+        answer.push(vehicleObj);
+    }
+
+    //Genarate the response body.
+    response.setBody(answer);
+
+
+
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_1397649_vehicl_0/v2/vehicles/vehicles</operation_uri>
+        <produces>application/json</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/vehicles</relative_path>
+        <request_example/>
+        <requires_acl_authorization>true</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <support_trailing_slash>false</support_trailing_slash>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-10 11:53:54</sys_created_on>
+        <sys_id>69806e47c319cf5034d93d0ed4013114</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Get Vehicles (v2)</sys_name>
+        <sys_package display_value="Vehicles Demo" source="x_1397649_vehicl_0">68c29c6ec3d9c75034d93d0ed40131e7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vehicles Demo">68c29c6ec3d9c75034d93d0ed40131e7</sys_scope>
+        <sys_update_name>sys_ws_operation_69806e47c319cf5034d93d0ed4013114</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-10 14:10:48</sys_updated_on>
+        <web_service_definition display_value="Vehicles">cd073ebec3990f5034d93d0ed401319a</web_service_definition>
+        <web_service_version display_value="v2">ed802e47c319cf5034d93d0ed4013107</web_service_version>
+    </sys_ws_operation>
+</record_update>
